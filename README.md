@@ -23,5 +23,5 @@
 <img src=imgs/Screenshot_2021-08-02-17-09-51-924_com.zjh.apiutil.jpg width=65% />
 
 #### 收藏
-只能收藏pixiv的图片(有对应pid)
+只能收藏pixiv的图片(有对应pid)  
 <img src=imgs/Screenshot_2021-08-02-17-11-42-744_com.zjh.apiutil.jpg width=65% />
