@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pixiv_hot_pic_mode">
+        <item>每日</item>
+        <item>每周</item>
+        <item>每月</item>
+        <item>每日/r18</item>
+        <item>每周/r18</item>
+    </string-array>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/lolicon_api"
+            android:title="@string/lolicon_api" />
+        <item
+            android:id="@+id/pixiv_hot_pic"
+            android:title="@string/pixiv_hot_pic" />
+        <item
+            android:id="@+id/syxz_api"
+            android:title="@string/syxz_api" />
+        <item
+            android:id="@+id/get_pixiv_pic"
+            android:title="@string/get_pixiv_pic" />
+        <item
+            android:id="@+id/pixiv_like"
+            android:title="@string/pixiv_like" />
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ui_exp"
+            android:id="@+id/test_api"
+            android:title="@string/test_api" />
+    </group>
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/get_stream"
+            android:title="@string/get_stream" />
+        <item
+            android:id="@+id/tools"
+            android:title="@string/tools" />
+    </group>
+    <group
+        android:id="@+id/group4"
+        android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ui_settings"
+            android:title="设置" />
+        <item
+            android:icon="@drawable/ui_logout"
+            android:title="退出" />
+    </group>
+</menu>

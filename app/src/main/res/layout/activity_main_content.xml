@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--android:layout_weight="1" 自动填充剩余空间 而不是直接match_parent-->
+    <!--update:下滑隐藏菜单,这个弃用-->
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/log_view_ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.core.widget.NestedScrollView>
+
+    <FrameLayout
+        android:id="@+id/main_pixiv_like_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+</FrameLayout>

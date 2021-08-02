@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/lolicon_api_test"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:background="@drawable/round_button_with_ripple"
+        android:text="测试"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/lolicon_api"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/lolicon_api"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:background="@drawable/round_button_with_ripple"
+        android:text="获取"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/lolicon_api_settings"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:scaleType="centerInside"
+        android:background="@drawable/ripple_20dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:src="@drawable/ui_settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:tint="@color/white_for_text" />
+    <ImageView
+        android:id="@+id/lolicon_api_like"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:scaleType="centerInside"
+        android:background="@drawable/ripple_20dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:src="@drawable/heart"
+        app:layout_constraintEnd_toStartOf="@+id/lolicon_api_settings"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:tint="@color/white_for_text"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">APIUtil</string>
+
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+    <string name="lolicon_api">LoliconAPI</string>
+    <string name="pixiv_hot_pic">pixiv榜单图</string>
+    <string name="syxz_api">岁月小筑API</string>
+    <string name="get_pixiv_pic">由pid获取pixiv图片</string>
+    <string name="pixiv_like">收藏</string>
+    <string name="get_stream">数据流获取</string>
+    <string name="test_api">测试API</string>
+    <string name="tools">Tools</string>
+    <string name="settings">设置</string>
+    <string name="exit">溜了</string>
+</resources>

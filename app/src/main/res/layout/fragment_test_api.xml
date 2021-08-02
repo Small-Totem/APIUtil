@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round_button_with_ripple"
+            android:layout_margin="6dp"
+            android:id="@+id/test_api_AppCompatButton1"
+            android:text="随机彩虹屁"
+            android:layout_weight="0.25" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round_button_with_ripple"
+            android:layout_margin="6dp"
+            android:id="@+id/test_api_AppCompatButton2"
+            android:text="随机毒鸡汤"
+            android:layout_weight="0.25" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round_button_with_ripple"
+            android:layout_margin="6dp"
+            android:id="@+id/test_api_AppCompatButton3"
+            android:text="舔狗日记"
+            android:layout_weight="0.25" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round_button_with_ripple"
+            android:layout_margin="6dp"
+            android:id="@+id/test_api_AppCompatButton4"
+            android:text="http请求解析"
+            android:textSize="12sp"
+            android:layout_weight="0.25" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round_button_with_ripple"
+            android:layout_margin="6dp"
+            android:id="@+id/test_api_AppCompatButton_acg_image_1"
+            android:text="二刺螈图@小歪"
+            android:layout_weight="0.33" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round_button_with_ripple"
+            android:layout_margin="6dp"
+            android:id="@+id/test_api_AppCompatButton_acg_image_2"
+            android:text="二刺螈图@樱花"
+            android:layout_weight="0.33" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round_button_with_ripple"
+            android:layout_margin="6dp"
+            android:id="@+id/test_api_AppCompatButton_acg_image_3"
+            android:text="二刺螈图@汐岑"
+            android:layout_weight="0.33" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    card_view:cardCornerRadius="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="?android:selectableItemBackground">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/recyclerview_pixiv_like_ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:scaleType="fitCenter" />
+            <TextView
+                android:id="@+id/recyclerview_pixiv_like_TextView_image_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="14sp" />
+            <at.grabner.circleprogress.CircleProgressView
+                xmlns:CircleProgressView="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/recyclerview_pixiv_like_CircleProgressView"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                CircleProgressView:cpv_showUnit="true"
+                CircleProgressView:cpv_showTextInSpinningMode="false"
+                CircleProgressView:cpv_autoTextSize="true"
+                CircleProgressView:cpv_barColor="@color/light_blue"
+                CircleProgressView:cpv_spinColor="@color/light_blue"
+                CircleProgressView:cpv_textColor="@color/white_for_text"
+                CircleProgressView:cpv_textScale="0.75"
+                CircleProgressView:cpv_unitScale="1"
+                CircleProgressView:cpv_barWidth="5dp"
+                CircleProgressView:cpv_rimWidth="5dp"
+                CircleProgressView:cpv_innerContourSize="0dp"
+                CircleProgressView:cpv_outerContourSize="4dp"
+                CircleProgressView:cpv_outerContourColor="@color/nothing"
+                CircleProgressView:cpv_maxValue="100"
+                CircleProgressView:cpv_rimColor="@color/nothing"
+                CircleProgressView:cpv_spinSpeed="4"
+                CircleProgressView:cpv_seekMode="false"
+                CircleProgressView:cpv_spin="true"
+                CircleProgressView:cpv_spinBarLength="80"
+                CircleProgressView:cpv_value="0"
+                CircleProgressView:cpv_unit="%"
+                CircleProgressView:cpv_unitColor="@color/light_blue"
+                CircleProgressView:cpv_unitPosition="right_top" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/recyclerview_pixiv_like_TextView_pid_and_p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/light_light_blue"
+            />
+        <TextView
+            android:id="@+id/recyclerview_pixiv_like_TextView_add_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/light_light_blue"
+            />
+        <TextView
+            android:id="@+id/recyclerview_pixiv_like_TextView_json"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+            android:textColor="@color/gray"
+            tools:ignore="SmallSp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
